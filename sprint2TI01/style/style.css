@@ -1,0 +1,349 @@
+body {
+	font-family: math !important;
+}
+
+.cabecalho-container {
+	display: inline !important;
+}
+
+.cabecalho-principal {
+	display:flex;
+	padding: 30px;
+	background-color: #01011a;
+	height: 80px;
+	opacity: 1;
+}
+
+.centralizar-div{
+	position: relative;
+	top: 50%;
+	left: 45%;
+	transform: translate(-50%, -50%);	
+}
+
+.titulo-div{
+	margin-top: 16px;
+}
+.titulo-principal {
+	color: white;
+}
+.titulo-principal:hover {
+	color: #00fadd;
+}
+.nav-link{
+	color: white;
+}
+.nav-link:hover{
+	color: #00fadd;
+}
+.secao {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.container-busca {
+    position: relative;
+    width: 100%;
+    min-height: 300px;
+    color: #fff;
+    z-index: 9;
+}
+
+.busca {
+	display: flex;
+}
+.background-busca {
+	text-align: center;
+	object-fit: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.div-busca {
+	position: inherit;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    min-height: 440px;
+    padding: 0 32px;
+}
+
+.content-div-busca {
+    max-width: 840px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.s-01 {
+	padding-top: 8px;
+	padding-bottom: 100px;
+	background-color: white;
+}
+
+.limite-site {
+	display: block;
+    max-width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.h-principal {
+	margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 27px;
+    line-height: 46px;
+}
+
+.bloco-artista {
+	width: 96%;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.08);
+    -webkit-transition: all 400ms linear;
+    transition: all 400ms linear;
+}
+
+.bloco-artista-foto {
+	padding: 15px 15px;
+	text-align: center;
+}
+
+.footer-principal {
+	background-color: #01011a;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}  
+
+.site-footer {
+	width: 100%;
+    max-width: 1830px;
+    padding: 64px 32px 56px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.s-03 {
+    width: 100%;
+    display: flex;
+    padding-top: 8px;
+	padding-bottom: 100px;
+}
+.content-s-03 {
+	flex: auto; 
+}
+.titulo-s-03 {
+	font-size: 20px;
+	color: #0DCAF0;
+	font-weight: bold;
+	margin-top: 50px;
+}
+.socials {
+	color: white !important;
+    padding-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.links-footer {
+    flex: initial;
+    display: flex;
+    align-items: flex-start;
+    margin-left: -24px;
+}
+.group-footer {
+	color: white;
+	width: 136px;
+    margin-left: 24px;
+    display: flex;
+    flex-direction: column;
+}
+.a-footer {
+	color: #00ab6b;
+    text-decoration: none;
+}
+
+.secao_cadastro_artista {
+	background-image: url(../images/colorful.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.categorias_l1 {
+	padding-bottom: 30px;
+}
+.categorias_l2 {
+	padding-bottom: 100px;
+}
+
+.imagem_cliente {
+	padding: 5px 10px;
+    width: 48%;
+    background-color: #0B5ED7;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    margin-bottom: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#arquivo {
+	display: none;
+}
+
+.img0_categoria {
+	width: 100%;
+    height: 178.94px;
+    background-image: url(../images/guitar-756326_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .img1_categoria {
+	width: 100%;
+    height: 178.94px;
+    background-image: url(../images/man-505353_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .img2_categoria {
+	width: 100%;
+    height: 178.94px;
+    background-image: url(../images/hands-1868562_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .img3_categoria {
+	width: 100%;
+    height: 178.94px;
+    background-image: url(../images/tattoo-artist-556036_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .img4_categoria {
+	width: 100%;
+    height: 178.94px;
+    background-image: url(../images/fire-6007111_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .img5_categoria {
+	width: 100%;
+    height: 178.94px;
+    background-image: url(../images/pottery-1139047_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .img6_categoria {
+	width: 100%;
+    height: 178.94px;
+    background-image: url(../images/guitar-4250161_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .img7_categoria {
+	width: 100%;
+    height: 178.94px;
+    background-image: url(../images/artist-4622221_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .secao_edicao {
+  	margin-top: 50px;
+  }
+  
+  .h-categorias {
+  	text-align: center;
+  }
+  
+  .filtro-categorias {
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  }
+  .botao-filtro {
+  	color: #01011a !important;
+  	border-color: #01011a !important;
+  	margin-right: 15px;
+  }
+   .botao-filtro-1:hover {
+  	background-color: #c7cce5 !important;
+  }
+  .dd-categorias{
+  	background-color: #01011a !important;
+  }
+  .div-categorias-especificas {
+  	margin-top: 20px;
+  	margin-bottom: 50px;
+  }
+  
+  .card{
+  	margin-top: 15px !important;
+  }
+  .card-categoria {
+  	
+  }
+  .secao_crud_produto {
+  	background-image: url(../images/fundo-produtos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .div_crud_produto {	
+  	background-color: #fff;
+  	margin-top: 50px;
+  	margin-bottom: 50px;
+  	padding-top: 50px;
+  	padding-bottom: 50px;
+  }
+  
+  .imagem_produto {
+	padding: 5px 10px;
+    width: 48%;
+    background-color: #0B5ED7;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    margin-bottom: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.botao_novo_produto {
+	display: flex;
+	justify-content: center;
+  	align-items: center;
+}
+  
+.secao_categorias {
+	background-color: #cc00ff1f;
+    padding: 30px;
+}
+.linha_categorias_home {
+	margin-bottom: 20px;
+}
